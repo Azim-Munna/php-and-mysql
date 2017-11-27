@@ -1,0 +1,68 @@
+// ////********fat rool function
+
+// function page_title(){
+	// echo"page title";
+// };
+// page_title();
+
+// ///////////***** sencond rule"""
+
+// function page(){
+	// echo "<h1>2nd page title</h1>";
+// }
+// echo page();
+
+// //////// *****3rd rule function and it perfect ////
+// function rdrule(){
+	// return"<h3>this is 3rd title rule</h3>";
+// }
+// echo rdrule();
+
+*********   3rd rule end *******
+**********link using include aea start ************
+
+php link : include ();
+
+function.php> 
+
+function page_title(){
+	echo "munna.com"
+}
+
+function text(){
+echo " some text "
+}
+
+home.php>
+link >
+include("function.php");
+
+htm:5>
+
+title > <?php page_title();?>
+
+
+h1> <?php text();?>
+
+
+
+
+
+**********function item ************
+1; show function
+2; show  single aray function 
+3;sungle>multiple/paramiter/argoment  function show
+4; show blnak function;\
+5 ; math function function 
+
+php learn at last ;  
+
+1 var;
+2; loop
+3; functon;
+3; array
+
+
+
+
+

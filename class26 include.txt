@@ -1,0 +1,10 @@
+include("") ==== eror ar porar data show korba << joto bar diba toto bar asba >>>
+ 
+include_once(""); == akadik bar thaklao akber e show korba 
+{function a ata use korba }
+require(); == error ar por ar kono data show korba na ; 
+<< joto bar diba toto bar asba >>>
+
+require_once();= akadik bar thaklao akber e show korba
+< inclue eror show ar por baki gula show hova !
+requre a khali error show korba  >>

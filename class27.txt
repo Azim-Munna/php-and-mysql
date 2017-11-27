@@ -1,0 +1,10 @@
+1: SESSITION IS A GLOVAL VARIABLE ; 
+HOW IT WRITE ?
+<?PHP
+SESSION_START();
+print_r($_SESSION);
+?>
+
+
+
+(<small>'.$_SESSION["login"].' </small>)

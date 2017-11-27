@@ -1,0 +1,48 @@
+type database : utf8-general-ci ;
+
+**************----------*****************
+
+add table data > 
+
+program > click SQl>
+
+INSERT INTO `TABLE NAME` (`Id`,`Name`,`Email`,`Mobile`) VALUES(NULL,'abul','abul@gmail.com','56465464564656');
+
+**************----------*****************
+
+
+how to connect website to host ?>>>
+
+
+<?php
+$dbconnect = mysqli_connect(localhost,root,'');
+
+?>
+************----------------*********************
+how to add  website to localhost data >
+connect sql >
+<?php
+$dbconnect = mysqli_connect('localhost','root','','mynsql');
+$query= "INSERT INTO tbl_student (name,email,mobile) VALUES('new','new@gmial.com','87867676')";
+
+mysqli_query($dbconnect,$query);
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************----------------*********************

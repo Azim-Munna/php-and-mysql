@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding: 0;
+}
+header,footer{
+	background: green;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+
+
+}
+section{
+	min-height: 400px;
+}
+h1{
+	margin: 0;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: red;
+
+}
+nav ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+nav ul li a {
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	    color: #fff;
+	    font-size: 18px;
+}
+ul li a:hover{
+	text-decoration: underline;
+}
+.active{
+	text-decoration: underline;
+}

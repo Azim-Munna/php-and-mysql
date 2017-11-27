@@ -1,0 +1,133 @@
+ *********data using <> start **********
+
+
+<?php
+$data=100;
+if($data<33){
+	echo"f";
+
+}else if($data<45){
+	echo"c+";
+}else{
+echo"a+";
+};
+
+   **********using <> end ***********
+
+******** while loop using start *********
+
+$data=1;
+while ($data<=20){
+	echo"post number".$data."<br/>";
+	$data++;
+};
+
+
+
+*********while loop jor bejor program***************
+
+
+$number=1;
+while($number<=20){
+	if($number%2==0){
+	echo"online numer jor".$number."<br>";
+	}
+else{ echo"online number Bejor".$number."<br>";
+}
+$number++;
+}
+
+
+
+
+ ********while loop jor bejor area end ***********
+
+***********while loop style left center right program start*********
+
+$nu=1;
+while($nu<=20){
+	
+	if($nu%2==0){
+		echo'<p style="text-align:right";>';
+		echo"post number  ".$nu."<br />";
+		echo"<p/>";
+	}
+	
+	else{
+		echo'<p style="text-align:left";>';
+		echo" post number  ".$nu."<br />";
+		echo"<p/>";
+		
+		};
+	
+	$nu++;
+}
+
+
+#### we can start {}>: if i start : 
+i will finish : endwhile 
+
+***********while loop style left center right program end*********
+
+
+for loop AREA START *********
+
+for($postNm=1;$postNm<=20;$postNm++ ){
+	if($postNm%2==0){
+	echo"for post number jor".$postNm."<br />";
+	}
+	
+
+#### we can start {}>: if i start : 
+i will finish : endfor
+
+
+for loop AREA END ***********
+
+
+//foreach area start******
+
+$colors = array("Red","Blue","Yellow","Green","Black","Pink","Gay","Gray",);
+foreach($colors as $color){
+	echo"<p style='text-align:center'>";
+	echo"Foreach I Love ". $color." &nbsp color"."<br />";
+	echo"</p>";
+}
+
+foreach($colors as $color){
+	echo"<p style='text-align:center'>";
+	echo'["mp3 color="'.$color.'"]';
+	echo"</p>";
+}
+
+
+//foreach area end*******
+
+
+// do while start ******
+
+$data=5;
+do{
+	echo"post number".$data."<br />";
+	$data++;
+}while($data<=10)
+
+// do while end ****** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

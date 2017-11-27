@@ -1,0 +1,49 @@
+usning data:
+1. $_GET
+2. <pre>
+3. akta function : isset()
+4.print_r($_GET);
+
+******** using $GET
+
+
+<?php
+echo "<pre>";
+print_r($_GET);
+echo"</pre>";
+?>
+<h2>get using <?php  echo $_GET['phone'];?></h2>
+
+<h3>isset tesing <?php if(isset($_GET['user'])){echo  $_GET['user'];}?></h3>
+
+global variable : 
+1.$_GET
+2. $_post
+3. print_r($_GET);
+4. isset 
+5.mail();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+header,footer{
+	background: red;
+	height: 50px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	padding: 25px;
+}

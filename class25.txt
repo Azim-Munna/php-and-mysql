@@ -1,0 +1,105 @@
+how to write php : 
+<?php
+	echo"this is my fast script ";
+	echo "<h2>hi i am munna </h2>";
+	echo '<h2 class=\"title\" >  I\'m developer </h2>';
+
+
+?>
+
+how to call php variable:
+
+<?php
+
+$name="azim";
+$surname="munna";
+
+	echo $name.$surname;
+	echo "<br>";
+	echo $name." ".$surname;
+	echo "<br>";
+	echo $name."is".$surname;
+
+?>;
+php comment system:  */some text */  like css;
+
+data types : total 8 
+
+
+    String : $name="2562.com"'
+    Integer : $numeber=10;
+    Float : 10.25;
+    Boolean:FLUSE:0
+    Boolean:TRUE:1
+    Array: $COLOR=Arrey('red','green',blue); thts mean akadik  strings or value aksatha likha hoy arrey ar maddoma ;
+ %%%%%%%%array
+
+echo $color[2]." <br>";
+print_r($color);
+output >> Array ( [0] => red [1] => green [2] => blue )
+ echo '<pre>'; 
+ print_r($color);> output >
+
+Array
+(
+    [0] => red
+    [1] => green
+    [2] => blue
+)
+arrat with chentex >>
+$color_chentex = array("red" => "rgb(255,0,0)","green" => "rgb(0,255,0)", "blue" => "rgb(0,0,255)");
+ echo "<pre>";
+ print_r($color_chentex);
+
+
+out put >>>>>>>
+Array
+(
+    [red] => rgb(255,0,0)
+    [green] => rgb(0,255,0)
+    [blue] => rgb(0,0,255)
+)
+echo $color_chentex["red"];
+
+
+ adding value in array >>>
+$color_adding_array = array();
+$color_adding_array["white"] = "#ffff";
+print_r($color_adding_array);
+output >>>
+Array
+(
+    [white] => #ffff
+)
+
+
+ %%%%%%%%%%end array
+
+object : next class
+null : next class
+resorse :  next class 
+
+
+>>>>>>>>>>oparator php
+// >>>> oparator
+$a=10;
+$b= 5; 
+$c= "azim";
+echo $a+$b."<br>";
+echo $a-$b."<br>";
+echo $a/$b."<br>";
+echo $a*$b."<br>";
+echo $b-$a."<br>";
+echo $b-$a.$c."<br>";
+
+constant>>>>>>>>
+only one for the variable like html id  >>>
+define("MYNAME","azim munna ");
+echo MYNAME;
+
+
+
+
+
+
+
